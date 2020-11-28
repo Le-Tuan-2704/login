@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body{
+    
+    background-color: #5a19bb;
+}
+p{
+    margin: 3px 0px;
+}
+a{
+    text-decoration: none;
+}
+input{
+    outline: 0;
+    outline-style: none;
+    outline-width: 0;
+}
+
+.container{
+    margin: auto;
+    margin-top: 70px;
+    width: 80%;
+    height: 600px;
+    background-color: bisque;
+    position: relative;
+    box-shadow: 7px 7px rgb(68, 38, 119);
+}
+.container-text{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #ffffff;
+    width: 50%;
+    height: 100%;
+}
+
+
+.textLogo{
+    color: #848484;
+    padding-top: 50px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.textHello{
+    width: 100%;
+    height: 120px;
+}
+.textHello p{
+    display: block;
+    color: #374aff;
+    font-size: 46px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    animation: text 3s 1;
+}
+.textHello span{
+    font-weight: bold;
+    display: inline-block;
+    color: #374aff;
+    font-size: 46px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    animation: text2 6s 1;
+    /* animation-delay: 3s; */
+}
+@keyframes text{
+    0%{
+        color: #ffffff;
+        letter-spacing: 25px;
+    }
+    30%{
+        letter-spacing: 25px;
+    }
+    80%{
+        letter-spacing: 2px;
+    }
+}
+@keyframes text2{
+    0%{
+        color: #ffffff;
+    }
+    50%{
+        color: #ffffff;
+    }
+    70%{
+        letter-spacing: 25px;
+    }
+    90%{
+        letter-spacing: 2px;
+    }
+}
+
+.container-login{
+    margin-bottom: 40px;
+}
+
+.inputEmail{
+    width: 100%;
+    position: relative;
+    height: 60px;
+    border: 1px solid #bdbdbd;
+    border-bottom: none;
+}
+.inputEmail div{
+    height: 7px;
+    width: 60px;
+    position: absolute;
+    top: 26px;
+    left: -27px;
+    transform: rotate(90deg);
+    background-color: #ff2aff;
+}
+.inputEmail p{
+    color: #bdbdbd;
+    display: block;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+.inputEmail input{
+    width: 90%;
+    position: absolute;
+    top: 30px;
+    border: none;
+    left: 20px;
+}
+
+.inputPassword{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+    border: 1px solid #bdbdbd;
+}
+.inputPassword p{
+    color: #bdbdbd;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+.inputPassword input{
+    position: absolute;
+    top: 30px;
+    width: 90%;
+    left: 20px;
+    border: none;
+}
+
+
+a.forger, .text-checkbox {
+    letter-spacing: 3px;
+    color:  #bdbdbd;
+}
+a.forger{
+    float: right;
+}
+
+#login{
+    width: 32%;
+    height: 30px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: aliceblue;
+    border: 1px solid #ff2aff;
+    background-color:#ff2aff ;
+}
+#login:hover{
+    color:#ff2aff;
+    background-color: #ffffff;
+}
+
+#Sign{
+    width: 32%;
+    height: 30px;
+    font-weight: bold;
+    background-color: aliceblue;
+    color: #374aff;
+    border: 2px solid #374aff;
+}
+#Sign:hover{
+    color: #ffffff;
+    background-color:#374aff;
+}
+
+.link{
+    padding-top: 60px;
+    color: #848484;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.link .follow a{
+    color: #848484;
+}
+
+.icon{
+    color: #848484;
+    display: flex;
+}
+.icon div{
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.icon div:hover{
+    border: 1px solid #848484;
+    border-radius: 100px;
+    background-color: #848484;
+}
+
+.icon div a{
+    color: #848484;
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+.icon div a:hover{
+    color: #ffffff;
+}
+
+.icon div a i{
+    font-size: 25px;
+}
+
+
+
+.bia{
+    width: 50%;
+    height: 100%;
+    background-image: url("1.png");
+    background-color: cadetblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
