@@ -9,29 +9,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="dangKy.css">
+    <link rel="stylesheet" href="reponsive.css">
+
+    <script>
+        
+    </script>
 </head>
 <body >
+    <div id="body">
     <div class="container">
     <div class="container-text">
         <div style="margin: auto; width: 80%;">
-        <div class="textLogo">
+        <div class="text-logo">
             <p>
                 yourlogo
             </p>
         </div>
-        <div class="textHello">
+        <div class="text-hello">
             <p>Hello,</p> 
             <span>welcome!</span>
         </div>
         <div class="container-login">
-            <div class="inputEmail">
-                <div></div>
+            <div class="input-email">
+                <div class="tick-input" id="tickEmail"></div>
                 <p>Email address</p>
-                <input type="text" name="" id="" placeholder="name@mail.com"> <br>
+                <input type="text" name="" id="" onmousedown="btnEmail()" placeholder="name@mail.com"> <br>
             </div>
-            <div class="inputPassword">
+            <div class="input-password">
+                <div class="tick-input" id= tickPassword></div>
                 <P>Password</P>
-                <input type="password" name="" id="password" placeholder="***********"> <br>
+                <input type="password" name="" id="password" onmousedown="btnPassword()" placeholder="***********"> <br>
             </div>
             
             <div>
@@ -41,7 +48,7 @@
         </div>
         <div>
             <button type="submit" id="login"> Login</button>
-            <button id="Sign">Sign up</button>
+            <button id="sign">Sign up</button>
         </div>
 
         <div class="link">
@@ -59,5 +66,7 @@
         
     </div>
 </div>
+</div>
+<script src="dangKy.js"></script>
 </body>
 </html>
